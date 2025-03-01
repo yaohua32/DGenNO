@@ -1,2 +1,2 @@
-# Weak_Informed_Neural_Operator
-The weak-form-informed neural operator method
+# Deep Generative Neural Operator
+The implementation of the Deep Generative Neural Operator.
