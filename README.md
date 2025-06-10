@@ -3,17 +3,17 @@ The implementation of the [Deep Generative Neural Operator (DGenNO)](https://arx
 
 ## 📌 Benchmark Problems
 We evaluate the DNO frameworks on the following PDEs:
-### 1. Burger’s Equation
+#### 1. Burger’s Equation
 Goal: Learn the operator mapping initial condition $a(x):=u(x,t=0)$ to the solution $u(x,t)$.
 
-### 2. Darcy’s Flow
+#### 2. Darcy’s Flow
 Goal: Learn the mapping from the permeability field $a(x)$ to the pressure field $u(x)$.
 We considered two cases: (1) Smooth $a(x)$ and (2) Piecewise-constant $a(x)$.
 
-### 3. Stokes Flow with a Cylindrical Obstacle
+#### 3. Stokes Flow with a Cylindrical Obstacle
 Goal: Learn the mapping from in-flow velocity ${\bf u}_0 = (a(x), 0)$ to the pressure field $u(x)$.
 
-### 4. Inverse Discontinuity Coefficient in Darcy’s Flow
+#### 4. Inverse Discontinuity Coefficient in Darcy’s Flow
 
 We also consider the inverse problem of reconstructing the **piecewise-constant** permeability field $a(x)$ from **sparse, noisy** observations of $u$. This problem has important applications in subsurface modeling and medical imaging.
 
